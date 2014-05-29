@@ -1,0 +1,5 @@
+1 - Seeing the docker version
+$docker version
+
+After you make changes (by running a command inside a container), you probably want to save those changes. This will enable you to later start from this point onwards.
+With Docker, the process of saving the state is called committing. Commit basically saves the difference between the old image and the new state. The result is a new layer.
